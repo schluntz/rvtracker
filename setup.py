@@ -1,5 +1,5 @@
 """
-rvtravel setup / installation script
+rvtracker setup / installation script
 
 See README.rst for more information
 """
@@ -14,12 +14,12 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='rvtravel',
+    name='rvtracker',
     version='0.0.0',
 
     description='Toolkit for monitoring recreational vehicles (RV)',
     long_description=long_description,
-    url='https://github.com/schluntz/rvtravel',
+    url='https://github.com/schluntz/rvtracker',
     author='Sean Schluntz',
     author_email='sean@schluntz.com',
     license='MIT',
@@ -43,7 +43,7 @@ setup(
     ],
 
     packages=find_packages(exclude=['bin', 'data', 'docs', 'tests']),
-    package_data{'rvtravel':'data'}, 
+    package_data{'rvtracker':'data'}, 
 
     # install_requires=[
     #    'jsonrpclib',

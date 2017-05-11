@@ -1,5 +1,5 @@
 =======================
-rvtravel - automated monitoring of recreational vehicles with Python
+rvtracker - automated monitoring of recreational vehicles with Python
 =======================
 
 Python toolkit for monitoring and tracking recreational vehicles (RV)
@@ -8,8 +8,8 @@ Installation
 -----------------------
 
 You can [download the source code
-(ZIP)](https://github.com/schluntz/rvtravel/zipball/master "rvtravel
-source code") for `rvtravel`, and then run:
+(ZIP)](https://github.com/schluntz/rvtracker/zipball/master "rvtracker
+source code") for `rvtracker`, and then run:
 
     python setup.py install
 
